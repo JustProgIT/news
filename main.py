@@ -19,9 +19,9 @@ def index():
 def submit():
     input_data = request.form['input_data']
 
-    checkbox_value = request.form.get('checking_language')
+    # checkbox_value = request.form.get('checking_language')
 
-    print("checked")
+    # print("checked")
 
     # if checkbox_value == 'on':
     #     language = "kk"
