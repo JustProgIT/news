@@ -23,12 +23,12 @@ def submit():
 
     print("checked")
 
-    if checkbox_value == 'on':
-        language = "kk"
-        print("kk")
-    else:
-        language = "ru"
-        print("ru")
+    # if checkbox_value == 'on':
+    #     language = "kk"
+    #     print("kk")
+    # else:
+    #     language = "ru"
+    #     print("ru")
 
     payload = json.dumps({
         "q": input_data,
