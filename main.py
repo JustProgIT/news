@@ -47,5 +47,5 @@ def submit():
         return render_template("index.html", article_title = response.json()["news"][0]["title"], article_snippet = response.json()["news"][0]["snippet"])
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
